@@ -1,0 +1,1 @@
+pandoc index.md -s -o index.html --katex="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js"
