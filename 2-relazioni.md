@@ -59,7 +59,6 @@ Talvolta l'insieme di partenza e di arrivo possono essere il prodotto cartesiano
 
 $\text{Plus} =  \{ ((x, y), z) \in (\N \times \N) \times \N \ | \ z = x + y \} \in (\N \times \N) \times \N$
 
-
 ### Operazioni su relazioni
 
 Come gli insiemi, anche le relazioni possono essere combinate in vari modi per ottenere nuove relazioni.
@@ -112,9 +111,41 @@ $\forall a \in A \ | \ P(a)$ "Per ogni a in A vale che P(a) è vera"
 
 
 |         | partenza   | arrivo     |
-| ------- | ---------- | ---------- |
+| --------- | ------------ | ------------ |
 | almeno  | TOTALE     | SURGETTIVA |
-| al più  | UNIVALENTE | INIETTIVA  |
+| al più | UNIVALENTE | INIETTIVA  |
 
+> Una funzione è una relazione che soddisfa le proprietà **TOTALE** e **UNIVALENTE**
 
-CIAO
+> Una funzione è parziale se rispetta solamente la proprietà **UNIVALENTE**
+
+> Una funzione è biettiva quando soddisfa tutte e 4 le proprietà (**TOTALE**, **UNIVALENTE**, **SURGETTIVA**, **INIETTIVA**)
+
+#### Teorema di caratterizzazione
+
+Sia $R \subset A \times B$ definita da $R: A \rightarrow B$
+
+- R **totale** $\iff Id_A \subseteq R;R^{op}$
+- R **univalente** $\iff R^{op};R \subseteq Id_B$
+- R **surgettiva** $\iff Id_b \subseteq R^{op};R$
+- R **iniettiva** $\iff R;R^{op} \subseteq Id_A$
+
+#### Proprietà di chiusura per composizione
+
+Siano $R$ e $S$ due relazioni
+
+- Se $R$ e $S$ sono ***totali*** allora $R;S$ è ***totale***
+- Se $R$ e $S$ sono ***univalenti*** allora $R;S$ è ***univalente***
+- Se $R$ e $S$ sono ***surgettive*** allora $R;S$ è ***surgettiva***
+- Se $R$ e $S$ sono ***iniettive*** allora $R;S$ è ***iniettiva***
+
+#### Proprietà di chiusura per funzioni
+
+Siano $i: A \rightarrow B$ e $j: B \rightarrow C$ due funzioni, allora:
+
+- $Id_A$ è una ***biezione***, essendo una relazione con se stesso
+- Se $i$ e $j$ sono ***biezioni***, allora $i;j$ è a sua volta una ***biezione***
+
+#### Caratterizzazione in biezione
+
+> $\forall \ A, B \ . \ \forall \ R \in A \times B, R \text{ è in biezione } \iff Id_A = R;R^{op} \land Id_B = R^{op};R  $
