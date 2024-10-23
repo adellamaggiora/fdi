@@ -1,0 +1,21 @@
+<div class="container mt-4">
+    <!-- Pulsanti per cambiare note -->
+    <div class="btn-group mb-3" role="group">
+        <button class="btn btn-secondary" (click)="changeNote('notes/1-insiemi.md')">Insiemi</button>
+        <button class="btn btn-secondary" (click)="changeNote('notes/2-relazioni.md')">Relazioni</button>
+        <button class="btn btn-secondary" (click)="changeNote('notes/3-induzione.md')">Induzione</button>
+        <button class="btn btn-secondary" (click)="changeNote('notes/5-grafi.md')">Grafi</button>
+    </div>
+
+    <!-- Visualizzazione del contenuto Markdown -->
+    <div class="card">
+        <div class="card-body">
+            <div [innerHTML]="markdownContent"></div>
+        </div>
+    </div>
+
+    <!-- Se il file non è stato caricato o se c'è un errore -->
+    <div *ngIf="!markdownContent" class="alert alert-info" role="alert">
+        Caricamento del contenuto o file non disponibile...
+    </div>
+</div>

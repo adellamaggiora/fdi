@@ -1,0 +1,131 @@
+[
+    {
+      "term": "Insieme",
+      "definition": "Un insieme è una collezione di oggetti distinti considerati come un'entità singola. Gli oggetti all'interno di un insieme sono chiamati 'elementi'."
+    },
+    {
+      "term": "Sottoinsieme",
+      "definition": "Un insieme A è un sottoinsieme di un insieme B se tutti gli elementi di A sono anche elementi di B."
+    },
+    {
+      "term": "Insieme vuoto",
+      "definition": "L'insieme vuoto è un insieme che non contiene alcun elemento. Si denota con ∅."
+    },
+    {
+      "term": "Unione di insiemi",
+      "definition": "L'unione di due insiemi A e B è l'insieme degli elementi che appartengono ad A, a B, o a entrambi. Si indica con A ∪ B."
+    },
+    {
+      "term": "Intersezione di insiemi",
+      "definition": "L'intersezione di due insiemi A e B è l'insieme degli elementi che appartengono sia ad A che a B. Si indica con A ∩ B."
+    },
+    {
+      "term": "Differenza tra insiemi",
+      "definition": "La differenza tra due insiemi A e B è l'insieme degli elementi che appartengono ad A ma non a B. Si indica con A \\ B."
+    },
+    {
+      "term": "Prodotto cartesiano",
+      "definition": "Il prodotto cartesiano di due insiemi A e B è l'insieme di tutte le coppie ordinate (a, b), dove a appartiene ad A e b appartiene a B."
+    },
+    {
+      "term": "Cardinalità di un insieme",
+      "definition": "La cardinalità di un insieme è il numero di elementi che esso contiene."
+    },
+    {
+      "term": "Relazione binaria",
+      "definition": "Una relazione binaria tra due insiemi A e B è un sottoinsieme del prodotto cartesiano A × B."
+    },
+    {
+      "term": "Relazione d'ordine",
+      "definition": "Una relazione d'ordine è una relazione binaria che è riflessiva, anti-simmetrica e transitiva."
+    },
+    {
+      "term": "Relazione di equivalenza",
+      "definition": "Una relazione di equivalenza è una relazione binaria che è riflessiva, simmetrica e transitiva."
+    },
+    {
+      "term": "Classe di equivalenza",
+      "definition": "Dati un insieme A e una relazione di equivalenza R su A, una classe di equivalenza è l'insieme di tutti gli elementi di A che sono equivalenti a un dato elemento."
+    },
+    {
+      "term": "Relazione totale",
+      "definition": "Una relazione binaria R su A è totale se, per ogni coppia di elementi (a, b), o (a, b) appartiene a R oppure (b, a) appartiene a R."
+    },
+    {
+      "term": "Induzione matematica",
+      "definition": "L'induzione matematica è un metodo di dimostrazione usato per dimostrare che una proposizione è vera per tutti i numeri naturali."
+    },
+    {
+      "term": "Passo base (induzione)",
+      "definition": "Il passo base è il primo passo in una dimostrazione per induzione, dove si dimostra che la proposizione è vera per il primo valore (di solito n = 0 o n = 1)."
+    },
+    {
+      "term": "Passo induttivo",
+      "definition": "Nel passo induttivo si assume che la proposizione sia vera per un valore generico n, e si dimostra che è vera anche per n + 1."
+    },
+    {
+      "term": "Induzione completa",
+      "definition": "L'induzione completa è una variante dell'induzione matematica in cui, per dimostrare che la proposizione è vera per n + 1, si assume che essa sia vera per tutti i valori da 0 a n."
+    },
+    {
+      "term": "Grafo",
+      "definition": "Una coppia <nodi, archi> che rappresenta collegamenti tra entità (concettuali, fisiche ecc.). I grafi sono dappertutto e modellano molte situazioni."
+    },
+    {
+      "term": "Grafo orientato",
+      "definition": "Un grafo in cui gli archi tra i nodi hanno una direzione specifica. Formalmente, è una relazione E: V -> V su un insieme finito V (vertici) e E (archi)."
+    },
+    {
+      "term": "Cappio",
+      "definition": "Un arco che parte da un nodo e ritorna su se stesso, formando un ciclo di lunghezza 1."
+    },
+    {
+      "term": "Vicinato in uscita",
+      "definition": "L'insieme dei nodi verso cui partono gli archi da un dato nodo x. Indicato come N+(x)."
+    },
+    {
+      "term": "Vicinato in ingresso",
+      "definition": "L'insieme dei nodi dai quali partono archi verso un dato nodo x. Indicato come N-(x)."
+    },
+    {
+      "term": "Cammino (walk)",
+      "definition": "Una sequenza di nodi collegati da archi orientati nella stessa direzione."
+    },
+    {
+      "term": "Ciclo",
+      "definition": "Un cammino che ritorna al nodo di partenza, formando un anello chiuso."
+    },
+    {
+      "term": "Trail",
+      "definition": "Un cammino che non attraversa due volte lo stesso arco."
+    },
+    {
+      "term": "Path",
+      "definition": "Un cammino che non attraversa due volte lo stesso nodo."
+    },
+    {
+      "term": "Grafo fortemente connesso",
+      "definition": "Un grafo orientato in cui ogni nodo è raggiungibile da qualsiasi altro nodo."
+    },
+    {
+      "term": "Handshaking Lemma",
+      "definition": "In ogni grafo non orientato, la somma dei gradi dei nodi è uguale a 2 volte il numero di archi, ossia 2 * |E|."
+    },
+    {
+      "term": "Chiusura riflessiva",
+      "definition": "Aggiunge tutte le coppie (a, a) necessarie affinché una relazione diventi riflessiva."
+    },
+    {
+      "term": "Chiusura simmetrica",
+      "definition": "Aggiunge tutte le coppie (b, a) necessarie affinché una relazione diventi simmetrica."
+    },
+    {
+      "term": "Chiusura transitiva",
+      "definition": "Aggiunge tutte le coppie (a, c) derivanti dalla composizione di due coppie (a, b) e (b, c) per rendere una relazione transitiva."
+    },
+    {
+      "term": "Chiusura di Kleene",
+      "definition": "La chiusura di Kleene di una relazione è l'insieme che include la relazione riflessiva e transitiva. Essa contiene tutte le coppie (a, c) se esiste un percorso di uno o più passi da a a c."
+    }
+  ]
+  

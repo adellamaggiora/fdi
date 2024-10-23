@@ -139,9 +139,7 @@ Per tutti gli insiemi $A, B, C$ vale che:
 
 Alcuni problemi richiedono di investigare tutte le possibili combinazioni degli elementi in un insieme. In questo caso è utile trattare insiemi i cui elementi siano a loro volta altri insiemi, ad esempio:
 
-$
-\{ \{ 2, 4, 6, 8 \}, \{ 1, 3, 5, 7, 9 \}  \}
-$
+$\{ \{ 2, 4, 6, 8 \}, \{ 1, 3, 5, 7, 9 \}  \}$
 
 ## Insieme delle parti
 
@@ -151,8 +149,7 @@ Dato un insieme A, Il suo insieme delle parti $\mathcal{P} (A)$ è l'insieme com
 
 ad esempio, dato un insieme $A = \{\ a,\ b,\ c\ \}$ il suo insieme delle parti è:
 
-$
-\mathcal{P} (A) = 
+$\mathcal{P} (A) = 
 \{ 
 \{ \varnothing \}, 
 \{ a \},
@@ -162,8 +159,7 @@ $
 \{ a, c \},
 \{ b, c \},
 \{ a, b, c \}
-\}
-$
+\}$
 
 > per tutti gli insiemi $A$ vale che $ \varnothing \in \mathcal{P}(a)$ e $ A \in \mathcal{P}(A)$
 
@@ -208,7 +204,7 @@ $
 
 Sono particolari famiglie di insieme che partizionano gli elementi di un certo insieme A in sottoinsiemi separati (disgiunti).
 
-![partizione](./assets/partizione.png)
+![partizione](../images/partizione.png)
 
 ### Proprietà:
 
