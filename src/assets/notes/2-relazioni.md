@@ -37,17 +37,17 @@ Da notare che l'insieme di partenza e l'insieme di arrivo sono gli stessi.
 > Per tutti gli insiemi $A$ e $B$, il prodotto cartesiano $A \times B$ è una relazione in $Rel(A, B)$. Questa è anche detta RELAZIONE COMPLETA
 
 - Relazione completa
-  ![relazione completa](./assets/rel-completa.png)
+  ![relazione completa](assets/images/rel-completa.png)
 
 > Per tutti gli insiemi $A$ e $B$, $\varnothing$ è una relazione in $Rel(A, B)$. Questa è anche detta RELAZIONE VUOTA e viene denotata con $\varnothing_{A,B}$
 
 - Relazione vuota
-  ![relazione vuota](./assets/rel-vuota.png)
+  ![relazione vuota](assets/images/rel-vuota.png)
 
 > Per tutti gli insiemi $A$, $\{ \ (x, x) \ | \ x \in A \ \} \subseteq A \times A$ è una relazione ed è chiamata RELAZIONE IDENTITÀ
 
 - Relazione identità
-  ![relazione identità](./assets/rel-identita.png)
+  ![relazione identità](assets/images/rel-identita.png)
 
 La realazione identità può anche essere vista come
 $I = \{ (x, y) \in \R \times \R \ | \ x = y \}$
@@ -177,10 +177,7 @@ Le funzioni possono essere composte, e abbiamo la garanzia che la composizione d
 La notazione $f;g$ significa intuitivamente che prima viene eseguita la funzione $f$ e l'output di questa viene indirizzato in g.
 La notazione matematica invece funziona all'opposto e la stessa funzione di prima si indica con $g \circ f$.
 
-$$
-INPUT \rightarrow f \rightarrow g \rightarrow OUTPUT
-
-$$
+$$ INPUT \rightarrow f \rightarrow g \rightarrow OUTPUT $$
 
 #### Teorema di caratterizzazione
 
@@ -215,7 +212,7 @@ Il numero totale di tutte le n-uple generabili si ottiene moltiplicando la cardi
 #### Sequenze di lunghezza arbitraria
 
 > **Una sequenza su $A$ di lunghezza arbitraria**  è una sequenza su $A$ di lunghezza $n$ per un qualsiasi numero naturale $n \in \N$.
-> L'insieme $A^*$ di tutte le sequenze su $A$ di lunghezza arbitraria è definito come $A^* = \bigcup_{n \in \mathbb{N}} A^n$. Si noti che se l'insieme $A$  ha un numero finito di elementi, allora per ogni $n \in \mathbb{N}$ l'insieme $A^n$ è finito, ma in generale l'insieme $A^n$  non lo è: $A^* = A^0 \cup A^1 \cup A^2 \cup \cdots \cup A^n \cup \dots$
+> L'insieme $ A^* $ di tutte le sequenze su $A$ di lunghezza arbitraria è definito come $A^* = \bigcup_{n \in \mathbb{N}} A^n$. Si noti che se l'insieme $A$  ha un numero finito di elementi, allora per ogni $n \in \mathbb{N}$ l'insieme $A^n$ è finito, ma in generale l'insieme $A^n$  non lo è: $A^* = A^0 \cup A^1 \cup A^2 \cup \cdots \cup A^n \cup \dots$
 
-La chiusura di Kleene $A^*$ è l'insieme di **tutte le sequenze finite** (anche di lunghezza zero) che possono essere generate dall'insieme $A$.
-$A^*$ ha cardinalità infinita in quanto ci sono infinite combinazioni possibli di lunghezze delle sequenze.
+La chiusura di Kleene $ A^* $ è l'insieme di **tutte le sequenze finite** (anche di lunghezza zero) che possono essere generate dall'insieme $A$.
+$ A^* $ ha cardinalità infinita in quanto ci sono infinite combinazioni possibli di lunghezze delle sequenze.

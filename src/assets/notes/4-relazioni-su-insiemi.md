@@ -1,4 +1,4 @@
-# Capitolo 4: Relazioni su un insieme
+# Relazioni su un insieme
 
 ## 4.1 Nozioni di base
 

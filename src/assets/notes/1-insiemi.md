@@ -12,7 +12,7 @@ Possono essere definiti in 2 modi
 #### Leggi per $\cup$ e $\cap$
 
 $
-Associatività \\
+\text{Associatività} \\
 A \cup (B \cup C) = (A \cup B) \cup C \\
 A \cap (B \cap C) = (A \cap B) \cap C
 $
@@ -125,7 +125,7 @@ Per tutti gli insiemi $A, B, C$ vale che:
 
 - $ A = A \text{ (riflessività)} $
 - $ \text{Se } A = B \text{ e } B = C \text{, allora } A = C \text{ (transitività)} $
-- $ \text{Se } A = B \text{ allora } B = A \text{ (simmetria)}
+- $ \text{Se } A = B \text{ allora } B = A \text{ (simmetria)} $
 
 #### Proprietà dell'inclusione
 
@@ -175,11 +175,11 @@ Sono tutti gli insiemi delle parti con cardinalità k di un certo insieme A
 
 ## Famiglie di insiemi
 
-Sia $I$ un insieme tale che per ogni $i \in I$ sia definito un certo insieme $A_i$. L'insieme $\mathcal{F}$ che ha come elementi tutti gli insiemi $A_i$ viene detta FAMIGLIA INDICIZZATA DA $I$
+Sia $I$ un insieme tale che per ogni $i \in I$ sia definito un certo insieme $A_i$. L'insieme $\mathcal{F}$ che ha come elementi tutti gli insiemi $A_i$ viene detta *famiglia indicizzata* $I$
 
 > $\mathcal{F}=\{ A_i\ |\ i \in I \} = \{ A_i \}_{i \in I}$
 
-Formalmente la famiglia può anche essere vista come una tripletta
+Formalmente la famiglia può anche essere vista come una tripla
 
 > $ (X, I, \iota)\ con\ X\ e\ I\ insiemi\ e\ \iota\ una\ funzione\ suriettiva\ \iota: I \rightarrow X  $
 
@@ -204,7 +204,7 @@ $
 
 Sono particolari famiglie di insieme che partizionano gli elementi di un certo insieme A in sottoinsiemi separati (disgiunti).
 
-![partizione](../images/partizione.png)
+![partizione](assets/images/partizione.png)
 
 ### Proprietà:
 
@@ -224,13 +224,13 @@ $(a_1, a_2, a_3, ... , a_n)$
 
 Ovviamente vorremmo che le coppie ordinate $(a, b)$ e $(b, a)$ siano ritenute diverse, mentre sappiamo che $\{ a, b\} = \{ b, a\}$
 
-> Siano $A$ e $B$ due insiemi. Il PRODOTTO CARTESIANO di $A$ per $B$ scritto $A \times B$ è l'insieme formato da tutte e sole le coppie ordinate $(a, b)$ tali che $a \in A$ e $b \in B$
+> Siano $A$ e $B$ due insiemi. Il *prodotto cartesiano* di $A$ per $B$ scritto $A \times B$ è l'insieme formato da tutte e sole le coppie ordinate $(a, b)$ tali che $a \in A$ e $b \in B$
 
 In formule:
 
 > $A \times B = \{ \ (a, b)\ | \ a \in A,\ b \in B\ \}$
 
-Ad esempio l'insieme $\R \times \R$ è l'insieme delle coppie $(x, y)$ tale che $x, y \in \R$. Solitamente tale insieme viene rappresentato con dei punti in in piano ed è chiamato PIANO CARTESIANO.
+Ad esempio l'insieme $\R \times \R$ è l'insieme delle coppie $(x, y)$ tale che $x, y \in \R$. Solitamente tale insieme viene rappresentato con dei punti in in piano ed è chiamato *piano cartesiano*.
 
 ## Cardinalità
 

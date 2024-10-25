@@ -1,4 +1,4 @@
-# Capitolo 3: Induzione Matematica
+# Induzione Matematica
 
 L'induzione è un potente metodo per definire insiemi infiniti, funzioni su questi insiemi, e per dimostrare proprietà che valgono per tutti gli elementi di tali insiemi.
 

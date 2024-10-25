@@ -1,4 +1,4 @@
-# Capitolo 5: Grafi
+# Grafi
 
 In questo capitolo presentiamo i grafi e molti concetti collegati, introdotti dal matematico **Eulero**. I grafi permettono di modellare relazioni tra elementi di un insieme e risolvere vari problemi computazionali.
 
