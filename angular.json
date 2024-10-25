@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "fdiangular": {
+    "fdi": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,8 +13,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/fdiangular",
+            "outputPath": "dist/fdi",
             "index": "src/index.html",
+            "baseHref": "/fdi/",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -66,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "fdiangular:build:production"
+              "buildTarget": "fdi:build:production"
             },
             "development": {
-              "buildTarget": "fdiangular:build:development"
+              "buildTarget": "fdi:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -77,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "fdiangular:build"
+            "buildTarget": "fdi:build"
           }
         },
         "test": {
